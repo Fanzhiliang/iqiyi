@@ -1,0 +1,186 @@
+@mainColor: #00be06;
+.header{
+	.title-row{
+		width: 100%;
+		height: 2rem;
+		position: fixed;
+		z-index: 9999;
+		top: 2.2rem;
+		left: 0;
+		text-align: center;
+		overflow: hidden;
+		background-color: rgb(246,246,246);
+		.back{
+			height: 100%;
+			width: 1.5rem;
+			float: left;
+			i:before{
+				font-size: 0.8rem;
+				line-height: 2rem;
+			}
+		}
+		.title{
+			display: inline-block;
+			line-height: 2rem;
+			font-size: 0.85rem;
+		}
+		.toggle-edit{
+			line-height: 2rem;
+			float: right;
+			color: #333;
+			margin-right: 0.5rem;
+		}
+	}
+	.filter-row{
+		background-color: #fff;
+		width: 100%;
+		height: 2.5rem;
+		position: fixed;
+		left: 0;
+		top: 4.2rem;
+		overflow: hidden;
+		z-index: 9999;
+		.suo{
+			margin-left: 0.5rem;
+			margin-right: 0.3rem;
+		}
+		.text{
+			color: #f60;
+			float: left;
+			line-height: 2.5rem;
+		}
+		.filter{
+			float: right;
+			line-height: 2.5rem;
+			margin-right: 0.5rem;
+			i{
+				font-size: 0.85rem;
+			}
+			span{
+
+			}
+		}
+		.filter.on{
+			i:before{
+				content: "\e622";
+				color: #0bbe06;
+			}
+		}
+	}
+}
+.main{
+	margin-top: 6.7rem;
+	.history-list{
+		padding: 0 0.5rem;
+		.title{
+			font-size: 0.75rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+		}
+		.item{
+			display: block;
+			overflow: hidden;
+			margin-bottom: 1.5rem;
+			.checkbox{
+				float: left;
+				display: none;
+				i{
+					font-size: 1rem;
+				}
+			}
+			.cover{
+				width: 5.25rem;
+				height: 3rem;
+				margin-right: 0.5rem;
+				float: left;
+				position: relative;
+				z-index: 9;
+				img{
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+				span{
+					color: #fff;
+					font-size: 0.5rem;
+					position: absolute;
+					right: 0.1rem;
+					bottom: 0.1rem;
+				}
+			}
+			.name{
+				width: 8.5rem;
+				height: 2rem;
+				line-height: 1rem;
+				float: left;
+				font-size: 0.7rem;
+				color: #333;
+			}
+			.bottom{
+				float: left;
+				width: 4rem;
+				height: 1rem;
+				line-height: 1.5rem;
+				color: rgb(153,153,153);
+				font-size: 0.55rem;
+				i:before{
+					font-size: 0.7rem;
+				}
+			}
+		}
+		.item.eidt{
+			.checkbox{
+				display: inline-block;
+				padding-right: 0.5rem;
+				padding-top: 1rem;
+			}
+			.checkbox.on{
+				i:before{
+					content: "\e622";
+					color: #ff3824;
+				}
+			}
+			.name{
+				width: 7.5rem;
+			}
+		}
+	}
+	.last-text{
+		height: 2.25rem;
+		line-height: 2.25rem;
+		margin-top: -0.5rem;
+		color: #999;
+		text-align: center;
+		font-size: 0.7rem;
+	}
+	.ctrl{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 2.2rem;
+		background-color: #fff;
+		z-index: 9999;
+		box-shadow: 0 0 5px 1px rgba(136, 136, 136, 0.2);
+		span{
+			font-size: 0.7rem;
+			line-height: 2.2rem;
+			display: inline-block;
+			text-align: center;
+		}
+		.all{
+			width: 47%;
+		}
+		.delete{
+			width: 47%;
+			color: #c8c8c8;
+		}
+		.delete.able{
+			color: #ff3824;
+		}
+		.separate{
+			width: 2%;
+			color: #c8c8c8;
+		}
+	}
+}

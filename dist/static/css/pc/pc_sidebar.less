@@ -1,0 +1,205 @@
+@mainColor: #00be06;
+.sidebar{
+	position: fixed;
+	right: 0;
+	bottom: 30px;
+	z-index: 9999;
+	ul{
+		li{
+			text-align: right;
+			margin-bottom: 10px;
+			&:hover{
+				a{
+					background-color: rgba(224,247,226,1);
+					color: @mainColor;
+					span{
+						display: inline-block;
+					}
+				}
+			}
+			&:nth-child(2),&:nth-child(3){
+				a{
+					width: initial;
+					padding: 0 10px;
+					border-radius: 20px;
+				}
+			}
+			a{
+				width: 35px;
+				height: 35px;
+				display: inline-block;
+				height: 100%;
+				text-align: center;
+				border-radius: 50%;
+				color: #666;
+				background-color: rgba(255,255,255,0.8);
+				transition: width 0.3s;
+				box-shadow: 0 0 5px 1px rgba(136, 136, 136, 0.5);
+				position: relative;
+				span{
+					display: none;
+					font-size: 14px;
+					color: @mainColor;
+				}
+				i{
+					line-height: 35px;
+					color: inherit;
+				}
+			}
+			a.integral:before{
+				background-color: rgb(255,96,0);
+				color: #fff;
+				font-size: 12px;
+				position: absolute;
+				border-radius: 10px 10px 10px 0;
+				width: 40px;
+				top: -13px;
+				left: 12px;
+			}
+			a.integral.signed:before{
+				content: '已签到';
+			}
+			a.integral.sign:before{
+				content: '签到';
+			}
+			a.integral.point:after{
+				content: '';
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background-color: rgb(255,96,0);
+				position: absolute;
+				top: 6px;
+				right: 10px;
+			}
+			a{
+				.integral-inner{
+					// display: none;
+					transform: scale(0,0);
+					transition: all 0.1s;
+					transform-origin: 100% 50%;
+					width: 300px;
+					height: 240px;
+					position: absolute;
+					border-radius: 3px;
+					background-color: #fff;
+					box-shadow: 0 0 5px 1px rgba(136, 136, 136, 0.5);
+					left: -315px;
+					top: -90px;
+					cursor: default;
+					.inner-item{
+						height: 36px;
+						padding: 13px;
+						text-align: left;
+						border-bottom: 1px solid rgb(245, 245, 245);
+						a,span,i{display: inline-block;line-height: normal;}
+						.left-col{
+							width: 36px;
+							height: 36px;
+							float: left;
+							margin-right: 10px;
+						}
+						.middle-col{
+							width: 163px;
+							float: left;
+							p{
+								font-size: 14px;
+								color: #333;
+								position: relative;
+								top: -2px;
+								cursor: text;
+								i{
+									background-color: #f60;
+									border-radius: 10px;
+									color: #fff;
+									font-size: 10px;
+									padding: 1px 8px;
+									position: relative;
+									margin-left: 5px;
+									top: -5px;
+								}
+								i:before{
+									content: '';
+									width: 0;
+									height: 0;
+									border-style: solid;
+									border-color: transparent;
+									border-bottom-color: #f60;
+									border-width: 5px;
+									position: absolute;
+									left: -2px;
+									bottom: 0;
+								}
+							}
+							span{
+								font-size: 12px;
+								color: #999;
+								cursor: text;
+							}
+						}
+						.right-col{
+							float: left;
+							line-height: 36px;
+							a{
+								color: #f60;
+								box-shadow: none;
+								background-color: #fff;
+								border-radius: 20px;
+								border: 2px #f60 solid;
+								width: initial;
+								padding: 1px 10px;
+								font-size: 12px;
+								margin-left: 5px;
+								&:hover{
+									color: #fff;
+									background-color: #f60;
+								}
+							}
+							i{
+								margin-top: -7px;
+								margin-left: 10px;
+							}
+						}
+					}
+					.more{
+						width: initial;
+						height: initial;
+						box-shadow: none;
+						background-color: rgb(255,84,0);
+						color: #fff;
+						font-size: 12px;
+						border-radius: 20px;
+						padding: 5px 15px;
+						margin-top: 10px;
+					}
+				}
+				.integral-inner:after{
+					content: '';
+					width: 0;
+					height: 0;
+					position: absolute;
+					border: 8px solid transparent;
+					border-left-color: #fff;
+					right: -15px;
+					top: 100px;
+				}
+				.integral-inner:before{
+					content: '';
+					width: 0;
+					height: 0;
+					position: absolute;
+					border: 7px solid transparent;
+					border-left-color: rgb(216,216,216);
+					right: -15px;
+					top: 101px;
+				}
+			}
+			a.on{
+				.integral-inner{
+					display: inline-block;
+					transform: scale(1,1);
+				}
+			}
+		}
+	}
+}

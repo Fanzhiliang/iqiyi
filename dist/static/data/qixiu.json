@@ -1,0 +1,28 @@
+{
+	"code":200,
+	"data":{
+		"list":[
+			{
+				"img":"/static/img/cover-13.jpg",
+				"title":"毒刺、糖果传媒",
+				"info":"1231人在看",
+				"tag":"live",
+				"href":"#"
+			},
+			{
+				"img":"/static/img/cover-14.jpg",
+				"title":"成成-承蒙厚爱",
+				"info":"1849人在看",
+				"tag":"live",
+				"href":"#"
+			},
+			{
+				"img":"/static/img/cover-15.jpg",
+				"title":"茜宝儿L9谢九离守护",
+				"info":"594人在看",
+				"tag":"live",
+				"href":"#"
+			}
+		]
+	}
+}

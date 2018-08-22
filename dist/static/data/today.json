@@ -1,0 +1,61 @@
+{
+	"code":200,
+	"data":{
+		"big":[
+			{"title":"印尼7.0级地震已致82死 数百人受伤","href":"#"},
+			{"title":"调查组赴商洛核查儿童接种疫苗问题","href":"#"}
+		],
+		"small":[
+			{"title":"中国学生被美航赶下飞机 理由:“飞机太小装不下你的琴”","href":"#"},
+			{"title":"啥？美国研究人员称频繁使用滤镜美颜可能诱发心理问题","href":"#"},
+			{"title":"女生被男网友软禁 打110叫外卖接警员听出玄机将其解救","href":"#"},
+			{"title":"瑞士警方确认一架飞机在境内失事 事故已造成20人死亡","href":"#"},
+			{"title":"男子为“情敌”包公交车加油 称：你是我女朋友最爱的男人","href":"#"},
+			{"title":"中学老师划船上班","href":"#"},
+			{"title":"委内瑞拉总统遭无人机袭击7人受伤","href":"#"}
+		],
+		"pic1":[
+			{"title":"潜水爱好者水下6米打麻将","src":"/static/img/news-pic-1.jpg","href":"#"},
+			{"title":"洪峰过境网红雕像“醉倒”","src":"/static/img/news-pic-2.jpg","href":"#"}
+		],
+		"pic2":[
+			{
+				"title":"新说唱：潘玮柏公演忘词","src":"/static/img/news-pic-3.jpg",
+				"tag":"exc","href":"#","update":"2018-08-21期","when":"刚刚发布"
+			},
+			{
+				"title":"陪你过暑假 剧爽一夏！","src":"/static/img/news-pic-4.jpg","href":"#",
+				"time":"01:42"
+			},
+			{
+				"title":"好声音：周杰伦慌到腿软","src":"/static/img/news-pic-5.jpg","href":"#",
+				"update":"08-20期","when":"昨天发布"
+			},
+			{
+				"title":"《延禧》皇上欺负璎珞好甜","src":"/static/img/news-pic-6.jpg","href":"#",
+				"time":"00:20","when":"刚刚发布"
+			},
+			{"title":"《超能幼稚园》奶香F5成团","src":"/static/img/news-pic-7.jpg","href":"#"},
+			{"title":"宋茜宫廷风上衣引领潮流","src":"/static/img/news-pic-8.jpg","href":"#"},
+			{"title":"新说唱：潘玮柏公演忘词","src":"/static/img/news-pic-3.jpg","href":"#"},
+			{"title":"陪你过暑假 剧爽一夏！","src":"/static/img/news-pic-4.jpg","href":"#"},
+			{"title":"好声音：周杰伦慌到腿软","src":"/static/img/news-pic-5.jpg","href":"#"},
+			{"title":"《延禧》皇上欺负璎珞好甜","src":"/static/img/news-pic-6.jpg","href":"#"},
+			{"title":"《超能幼稚园》奶香F5成团","src":"/static/img/news-pic-7.jpg","href":"#"},
+			{"title":"宋茜宫廷风上衣引领潮流","src":"/static/img/news-pic-8.jpg","href":"#"}
+		],
+		"slider":[
+			{"title":"爱奇艺早班机","info":"尔晴背着傅恒搞“婚外恋”","img":"/static/img/slider-bg-11.jpg","href":"#"},
+			{"title":"笑霸来了","info":"广场舞大妈battle邓紫棋","img":"/static/img/slider-bg-12.jpg","href":"#"},
+			{"title":"时尚巅峰","info":"《延禧攻略》示范清宫Style 维密秀回归纽约","img":"/static/img/slider-bg-13.jpg","href":"#"},
+			{"title":"周末不出门","info":"两个”熊梓淇尬撩张子枫","img":"/static/img/slider-bg-14.jpg","href":"#"}
+		],
+		"stars":[
+			[{"title":"《说唱》吴亦凡公演震撼夺冠","href":"#"},{"title":"丁文琪当妈后首发文丁文琪当妈后首发文丁文琪当妈后首发文","href":"#"}],
+			[{"title":"易安少年:未来会更加全面发展","href":"#"},{"title":"陈奕迅谈女儿恋爱","href":"#"}],
+			[{"title":"徐佳莹与比她大11岁的导演结婚","href":"#"},{"title":"32岁卢凯彤堕楼身亡","href":"#"}],
+			[{"title":"公鸭Drake冠单MV公开","href":"#"},{"title":"蔡徐坤骨灰级“条纹控”撩粉","href":"#"}],
+			[{"title":"正版授权汪汪队赛车玩具","href":"#"},{"title":"迷你自拍杆买一送一","href":"#"}]
+		]
+	}
+}

@@ -1,0 +1,228 @@
+@mainColor: #00be06;
+.slider{
+	width: 100%;
+	height: 450px;
+	position: relative;
+	background-color: #000;
+	overflow: hidden;
+	clear: both;
+	@media screen{
+		@media (min-width: 1300px){
+			height: 520px;
+		}
+	}
+	.slider-bg{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		li{
+			opacity: 0;
+			width: 100%;
+			height: 100%;
+			background-position: top center;
+			background-size: auto 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			&.on{
+				opacity: 1;
+			}
+			a{
+				display: block;
+				height: 100%;
+			}
+		}
+	}
+	.slider-toggle-link{
+		width: 100%;
+		height: 350px;
+		z-index: 98;
+		position: absolute;
+		top: 0;
+		left: 0;
+		@media screen{
+			@media (min-width: 1300px){
+				height: 430px;
+			}
+		}
+		.link-inner{
+			display: block;
+			width: 925px;
+			height: 100%;
+			margin: 0 auto;
+			position: relative;
+			@media screen{
+				@media (min-width: 1150px){
+					width: 1110px;
+				}
+				@media (min-width: 1300px){
+					width: 1290px;
+				}
+				@media (min-width: 1600px){
+					width: 1505px;
+				}
+				@media (min-width: 1750px){
+					width: 1720px;
+				}
+			}
+			.slider-title{
+				height: 100%;
+				float: right;
+				background-color: rgba(0, 0, 0, 0.5);
+				li{
+					a{
+						display: block;
+						font-size: 14px;
+						color: #ddd;
+						height: 20px;
+						padding: 7px 20px;
+						&.on{
+							color: @mainColor;
+						}
+						@media screen{
+							@media (min-width: 1300px){
+								padding: 9px 25px;
+								font-size: 16px;
+								height: 23px;
+							}
+						}
+					}
+					&:first-child{
+						a{
+							padding-top: 12px;
+							@media screen{
+								@media (min-width: 1300px){
+									padding-top: 20px;
+								}
+							}
+						}
+					}
+				}
+			}
+			.left-block{
+				display: none;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				right: -100%;
+				z-index: 100;
+				background-color: rgba(0,0,0,0.5);
+				@media screen{
+					@media (min-width: 1600px){
+						display: block;
+					}
+				}
+			}
+		}
+	}	
+	.slider-bottom{
+		width: 100%;
+		height: 100px;
+		background-color: rgba(27, 27, 28, 0.96);
+		z-index: 97;
+		position: absolute;
+		bottom: 0;
+		@media screen{
+			@media (min-width: 1300px){
+				height: 90px;
+			}
+		}
+		.bottom-inner{
+			width: 925px;
+			height: 75px;
+			padding: 12.5px 0;
+			margin: 0 auto;
+			@media screen{
+				@media (min-width: 1150px){
+					width: 1110px;
+				}
+				@media (min-width: 1300px){
+					width: 1290px;
+					padding: 7.5px 0;
+				}
+				@media (min-width: 1600px){
+					width: 1505px;
+				}
+				@media (min-width: 1750px){
+					width: 1720px;
+				}
+			}
+			.left-col{
+				float: left;
+				.group{
+					float: left;
+					padding-right: 4px;
+					padding-left: 20px;
+					background-image: url(../../img/nav-item-1335Bg-180425.png);
+					background-position: right center;
+					background-size: auto;
+					background-repeat: no-repeat;
+					.group-col{
+						float: left;
+						margin-right: 18px;
+						@media screen{
+							@media (min-width: 1150px){
+								margin-right: 30px;
+							}
+							@media (min-width: 1300px){
+								margin-right: 15px;
+							}
+							@media (min-width: 1600px){
+								margin-right: 25px;
+							}
+							@media (min-width: 1750px){
+								margin-right: 36px;
+							}
+						}
+						.group-item{
+							height: 25px;
+							font-size: 13px;
+							a{color: #ccc;}
+							@media screen{
+								@media (min-width: 1300px){
+									height: 35px;
+									line-height: 35px;
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+				.group:nth-child(1),.group:nth-child(3){
+					padding-left: 0;
+				}
+				.group:nth-child(n+3){
+					display: none;
+				}
+				@media screen{
+					@media (min-width: 1300px){
+						.group:nth-child(-n+2){
+							display: none;
+						}
+						.group:nth-child(n+3){
+							display: block;
+						}
+					}
+				}
+			}
+			.right-col{
+				float: left;
+				padding-top: 11px;
+				padding-left: 20px;
+				a{
+					display: block;
+					text-align: center;
+					i{margin-bottom: 5px;}
+					p{
+						color: #e2bc81;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
