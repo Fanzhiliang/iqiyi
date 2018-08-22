@@ -1,0 +1,41 @@
+{
+	"code":200,
+	"data":{
+		"examples":[
+			{"title":"巧虎","href":"#"},{"title":"广场舞","href":"#"}
+		],
+		"list":[
+			{
+				"title":"像学汉语拼音一样学英语",
+				"info":"像学汉语拼音一样学英语",
+				"tag":"pay",
+				"time":"更新至25集",
+				"img":"/static/img/news-pic-83.jpg",
+				"href":"#"
+			},
+			{
+				"title":"大人小孩一起学english 读音标",
+				"info":"通关检测（完）",
+				"time":"更新至10集",
+				"img":"/static/img/news-pic-84.jpg",
+				"href":"#"
+			},
+			{
+				"title":"复旦名师一起品读经典国学",
+				"info":"无题——张裕钊",
+				"tag":"pay",
+				"time":"更新至89集",
+				"img":"/static/img/news-pic-85.jpg",
+				"href":"#"
+			},
+			{
+				"title":"李光斗区块链财富课",
+				"info":"如何颠覆微信和Facebook",
+				"tag":"pay",
+				"time":"更新至13集",
+				"img":"/static/img/news-pic-86.jpg",
+				"href":"#"
+			}
+		]
+	}
+}

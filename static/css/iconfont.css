@@ -1,0 +1,1251 @@
+@font-face {
+ font-family:pc-iconfont;
+ src:url(../font/pc/iconfont.eot);
+ src:url(../font/pc/iconfont_iefix.eot) format("embedded-opentype"),url(../font/pc/iconfont.woff) format("woff"),url(../font/pc/iconfont.ttf) format("truetype"),url(../font/pc/iconfont.svg) format("svg")
+}
+
+.qy-svgicon {
+ display:inline-block;
+ vertical-align:-1px;
+ font-family:pc-iconfont!important;
+ font-size:16px;
+ font-style:normal;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale
+}
+.qy-svgicon-arrow-left:before {
+ content:"\E82C"
+}
+.qy-svgicon-arrow-right:before {
+ content:"\E82D"
+}
+.qy-svgicon-guide-narrow:before {
+ content:"\E85C"
+}
+.qy-svgicon-upload:before {
+ content:"\E85D"
+}
+.qy-svgicon-record:before {
+ content:"\E85E"
+}
+.qy-svgicon-info:before {
+ content:"\E85F"
+}
+.qy-svgicon-pca-dwn:before {
+ content:"\E860"
+}
+.qy-svgicon-PC-12:before {
+ content:"\E861"
+}
+.qy-svgicon-pad-12:before {
+ content:"\E862"
+}
+.qy-svgicon-phone-12:before {
+ content:"\E863"
+}
+.qy-svgicon-play-14:before {
+ content:"\E864"
+}
+.qy-svgicon-search:before {
+ content:"\E866"
+}
+.qy-svgicon-trashcan:before {
+ content:"\E867"
+}
+.qy-svgicon-camera:before {
+ content:"\E868"
+}
+.qy-svgicon-focus-today:before {
+ content:"\E869"
+}
+.qy-svgicon-praise:before {
+ content:"\E86A"
+}
+.qy-svgicon-grade-star:before {
+ content:"\E86B"
+}
+.qy-svgicon-news-point16:before {
+ content:"\E86D"
+}
+.qy-svgicon-praise-hollow:before {
+ content:"\E86E"
+}
+.qy-svgicon-collected:before {
+ content:"\E86F"
+}
+.qy-svgicon-stampe:before {
+ content:"\E870"
+}
+.qy-svgicon-stampe-hollow:before {
+ content:"\E871"
+}
+.qy-svgicon-guide-narrow-up:before {
+ content:"\E875"
+}
+.qy-svgicon-sign:before {
+ content:"\E876"
+}
+.qy-svgicon-user:before {
+ content:"\E872"
+}
+.qy-svgicon-anchorShare:before {
+ content:"\E877"
+}
+.qy-svgicon-anchorDwn:before {
+ content:"\E878"
+}
+.qy-svgicon-anchorVideo:before {
+ content:"\E879"
+}
+.qy-svgicon-anchorTop:before {
+ content:"\E87A"
+}
+.qy-svgicon-anchorHelp:before {
+ content:"\E87B"
+}
+.qy-svgicon-close:before {
+ content:"\E865"
+}
+.qy-svgicon-collect:before {
+ content:"\E880"
+}
+.qy-svgicon-change:before {
+ content:"\E885"
+}
+.qy-svgicon-vip:before {
+ content:"\E8AF"
+}
+.qy-svgicon-anchorIntegral:before {
+ content:"\E8A9"
+}
+.qy-svgicon-paopao:before {
+ content:"\E8A3"
+}
+.qy-svgicon-ok:before {
+ content:"\E8A4"
+}
+.qy-svgicon-intro:before {
+ content:"\E8A5"
+}
+.qy-svgicon-report:before {
+ content:"\E8BE"
+}
+.qy-svgicon-exchange:before {
+ content:"\E8B7"
+}
+.qy-svgicon-playicon:before {
+ content:"\E8BD"
+}
+.qy-svgicon-comment:before {
+ content:"\E8BA"
+}
+
+.qy-vip-rank.qy-rank-vip {
+ display:inline-block;
+ width:22px;
+ height:18px;
+ background-image:url(../img/sprite-vip-rank.png);
+ background-repeat:no-repeat
+}
+.qy-vip-rank.qyrv0 {
+ background-position:-210px -40px
+}
+.qy-vip-rank.qyrv1 {
+ background-position:0 -40px
+}
+.qy-vip-rank.qyrv2 {
+ background-position:-30px -40px
+}
+.qy-vip-rank.qyrv3 {
+ background-position:-60px -40px
+}
+.qy-vip-rank.qyrv4 {
+ background-position:-90px -40px
+}
+.qy-vip-rank.qyrv5 {
+ background-position:-120px -40px
+}
+.qy-vip-rank.qyrv6 {
+ background-position:-150px -40px
+}
+.qy-vip-rank.qyrv7 {
+ background-position:-180px -40px
+}
+.qy-vip-rank.qyrv-gray0 {
+ background-position:-210px -65px
+}
+.qy-vip-rank.qyrv-gray1 {
+ background-position:0 -65px
+}
+.qy-vip-rank.qyrv-gray2 {
+ background-position:-30px -65px
+}
+.qy-vip-rank.qyrv-gray3 {
+ background-position:-60px -65px
+}
+.qy-vip-rank.qyrv-gray4 {
+ background-position:-90px -65px
+}
+.qy-vip-rank.qyrv-gray5 {
+ background-position:-120px -65px
+}
+.qy-vip-rank.qyrv-gray6 {
+ background-position:-150px -65px
+}
+.qy-vip-rank.qyrv-gray7 {
+ background-position:-180px -65px
+}
+.qy-vip-rank.qy-rank-tennis {
+ display:inline-block;
+ width:15px;
+ height:18px;
+ background-image:url(../img/sprite-vip-rank.png);
+ background-repeat:no-repeat
+}
+.qy-vip-rank.qyrt-light {
+ background-position:-210px 0
+}
+.qy-vip-rank.qyrt-gray {
+ background-position:-210px -20px
+}
+
+.qy-head-side-icon{
+	display: inline-block;
+    background-image: url(../img/sprite-head-sideIcon0521.png);
+    background-repeat: no-repeat;
+}
+.qy-head-side-icon.side-icon-vip-g{
+	width: 24px;
+	height: 22px;
+	background-position: 0 -660px;
+}
+.qy-head-side-icon.side-icon-gift-g{
+	width: 24px;
+	height: 22px;
+	background-position: -30px -660px;
+}
+.qy-head-side-icon.side-icon-welfare-g{
+	width: 24px;
+	height: 22px;
+	background-position: -60px -660px;
+}
+.qy-head-side-icon.side-icon-videp{
+	width: 20px;
+	height: 20px;
+	background-position: 0 0;
+}
+.qy-head-side-icon.side-icon-mkvideo{
+	width: 20px;
+	height: 20px;
+	background-position: 0 -30px;
+}
+.qy-head-side-icon.side-icon-myspace{
+	width: 20px;
+	height: 20px;
+	background-position: 0 -60px;
+}
+.qy-head-side-icon.side-icon-manage{
+	width: 20px;
+	height: 20px;
+	background-position: 0 -90px;
+}
+.qy-head-side-icon.side-icon-data{
+	width: 20px;
+	height: 20px;
+	background-position: 0 -120px;
+}
+.qy-head-side-icon.side-icon-profit{
+	width: 20px;
+	height: 20px;
+	background-position: -90px -90px;
+}
+.qy-head-side-icon.side-icon-noad{
+	width: 22px;
+	height: 22px;
+	background-position: -30px 0;
+}
+.qy-head-side-icon.side-icon-rocket{
+	width: 22px;
+	height: 22px;
+	background-position: -90px 0;
+}
+.qy-head-side-icon.side-icon-1080p{
+	width: 22px;
+	height: 22px;
+	background-position: -90px -30px;
+}
+.qy-head-side-icon.side-icon-vip{
+	width: 22px;
+	height: 22px;
+	background-position: -90px -60px;
+}
+.qy-head-side-icon.side-icon-nologin{
+	width: 120px;
+	height: 100px;
+	background-position: 0 -430px;
+}
+.qy-head-side-icon.side-icon-nonotice{
+	width: 120px;
+	height: 100px;
+	background-position: 0 -210px;
+}
+.qy-head-side-icon.side-icon-novideo{
+	width: 120px;
+	height: 100px;
+	background-position: 0 -540px;
+}
+.qy-head-side-icon.side-icon-radio{
+	width: 16px;
+	height: 16px;
+	background-position: -30px -120px;
+}
+.qy-head-side-icon.side-icon-radio.selected{
+	background-position: -60px -120px;
+}
+.qy-head-side-icon.side-icon-delete{
+	width: 10px;
+	height: 10px;
+	background-position: -90px -120px;
+	cursor: pointer;
+}
+
+
+.point-num:before{
+	display: inline-block;
+vertical-align: top;
+letter-spacing: 0;
+content: "";
+width: 18px;
+height: 18px;
+margin-right: 6px;
+background: url(../img/personCenterMiniPop-v2.png) no-repeat -80px -120px;
+}
+
+.size55-icons{
+	display: block;
+	width: 55px;
+	height: 55px;
+	position: relative;
+	margin: 0 auto;
+	background: url(../img/personCenterMiniPop-v2.png) no-repeat 0 -8px;
+}
+.size55-icons.subscribe{
+	background-position: 0 0;
+}
+.size55-icons.collection{
+	background-position: -80px 0;
+}
+.size55-icons.saft-center{
+	background-position: -160px 0;
+}
+.size55-icons.help-center{
+	background-position: -240px 0;
+}
+
+.big-vip-gold{
+	display: inline-block;
+	vertical-align: top;
+	width: 34px;
+	height: 28px;
+	background: url(../img/nav-item-vipNormal@2x.png) no-repeat;
+	background-size: auto auto;
+	background-size: 34px 28px;
+}
+
+
+.qy-mod-icon {
+    width: 28px;
+    height: 28px;
+    background: url(../img/sprite-channelTitle-icons@2x.png) no-repeat 50%;
+    background-size: 400px 120px;
+}
+.qy-mod-icon.focuplay {
+ background-position:0 0
+}
+.qy-mod-icon.contshow {
+ background-position:-40px 0
+}
+.qy-mod-icon.zonyshow {
+ background-position:-80px 0
+}
+.qy-mod-icon.yuleshow {
+ background-position:-120px 0
+}
+.qy-mod-icon.guesslove {
+ background-position:-160px 0
+}
+.qy-mod-icon.orderupate {
+ background-position:-200px 0
+}
+.qy-mod-icon.movieshow {
+ background-position:-240px 0
+}
+.qy-mod-icon.tvshow {
+ background-position:-280px 0
+}
+.qy-mod-icon.domanshow {
+ background-position:-320px 0
+}
+.qy-mod-icon.childshow {
+ background-position:-360px 0
+}
+.qy-mod-icon.recordshow {
+ background-position:0 -40px
+}
+.qy-mod-icon.originshow {
+ background-position:-40px -40px
+}
+.qy-mod-icon.funnyshow {
+ background-position:-80px -40px
+}
+.qy-mod-icon.paikeplay {
+ background-position:-120px -40px
+}
+.qy-mod-icon.armyplay {
+ background-position:-160px -40px
+}
+.qy-mod-icon.musicplay {
+ background-position:-200px -40px
+}
+.qy-mod-icon.sportsplay {
+ background-position:-240px -40px
+}
+.qy-mod-icon.fashionplay {
+ background-position:-280px -40px
+}
+.qy-mod-icon.carplay {
+ background-position:-320px -40px
+}
+.qy-mod-icon.lvyouplay {
+ background-position:-360px -40px
+}
+.qy-mod-icon.finance {
+ background-position:0 -80px
+}
+.qy-mod-icon.healplay {
+ background-position:-40px -80px
+}
+.qy-mod-icon.gamesplay {
+ background-position:-80px -80px
+}
+.qy-mod-icon.kejiplay {
+ background-position:-120px -80px
+}
+.qy-mod-icon.teachplay {
+ background-position:-160px -80px
+}
+.qy-mod-icon.lifeplay {
+ background-position:-200px -80px
+}
+.qy-mod-icon.mobabyplay {
+ background-position:-240px -80px
+}
+.qy-mod-icon.qixiuplay {
+ background-position:-280px -80px
+}
+
+.qy-common-icon{
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 0;
+	background-image: url(../img/sprite-common-icons.png);
+	background-repeat: no-repeat;
+}
+.qy-common-icon.qy-common-msgdot {
+ width:7px;
+ height:7px;
+ background-position:0 0
+}
+.qy-common-icon.qy-common-play45 {
+ width:45px;
+ height:45px;
+ background-position:-10px 0
+}
+.qy-common-icon.qy-common-play45:hover {
+ background-position:-60px 0
+}
+.qy-common-icon.qy-common-play64 {
+ width:64px;
+ height:64px;
+ background-position:0 -60px
+}
+.qy-common-icon.qy-common-play64:hover {
+ background-position:-80px -60px
+}
+.qy-common-icon.qy-common-pageleft8 {
+ width:8px;
+ height:8px;
+ background-position:-110px 0
+}
+.qy-common-icon.qy-common-pageleft8:hover {
+ background-position:-130px 0
+}
+.qy-common-icon.qy-common-pageright8 {
+ width:8px;
+ height:8px;
+ background-position:-120px 0
+}
+.qy-common-icon.qy-common-pageright8:hover {
+ background-position:-140px 0
+}
+.qy-common-icon.qy-common-timecircle {
+ width:9px;
+ height:9px;
+ background-position:-110px -10px
+}
+.qy-common-icon.qy-common-timecircle:hover {
+ background-position:-120px -10px
+}
+.qy-common-icon.qy-common-rankUp {
+ width:8px;
+ height:9px;
+ background-position:-150px 0
+}
+.qy-common-icon.qy-common-rankUnchg {
+ width:8px;
+ height:9px;
+ background-position:-170px 0
+}
+.qy-common-icon.qy-common-rankDown {
+ width:8px;
+ height:9px;
+ background-position:-160px 0
+}
+.qy-common-icon.qy-common-pageleft32 {
+ width:32px;
+ height:40px;
+ background-position:-120px -20px;
+ cursor:pointer
+}
+.qy-common-icon.qy-common-pageleft32:hover {
+ background-position:-200px -20px
+}
+.qy-common-icon.qy-common-pageright32 {
+ width:32px;
+ height:40px;
+ background-position:-160px -20px;
+ cursor:pointer
+}
+.qy-common-icon.qy-common-pageright32:hover {
+ background-position:-240px -20px
+}
+.qy-common-icon.qy-common-pageleft25 {
+ width:24px;
+ height:48px;
+ background-position:-160px -80px;
+ cursor:pointer
+}
+.qy-common-icon.qy-common-pageleft25:hover {
+ background-position:-240px -80px
+}
+.qy-common-icon.qy-common-pageright25 {
+ width:24px;
+ height:48px;
+ background-position:-200px -80px;
+ cursor:pointer
+}
+.qy-common-icon.qy-common-pageright25:hover {
+ background-position:-280px -80px
+}
+.qy-common-icon.qy-common-pageleft42 {
+ width:42px;
+ height:80px;
+ background-position:0 -140px;
+ cursor:pointer
+}
+.qy-common-icon.qy-common-pageleft42:hover {
+ background-position:-120px -140px
+}
+.qy-common-icon.qy-common-pageright42 {
+ width:42px;
+ height:80px;
+ background-position:-60px -140px;
+ cursor:pointer
+}
+.qy-common-icon.qy-common-pageright42:hover {
+ background-position:-180px -140px
+}
+.qy-common-icon.qy-common-close-orange10 {
+ width:10px;
+ height:10px;
+ background-position:-220px 0;
+ cursor:pointer
+}
+
+.qy-video-icon {
+ display:inline-block;
+ vertical-align:top;
+ letter-spacing:0;
+ background-image:url(../img/sprite-video-icons.png);
+ background-repeat:no-repeat
+}
+.qy-video-icon.qy-video-vip{
+	background-image:url(../img/vip_100000_v_601_0_27.png);
+	width: 44px;
+	height: 27px;
+	background-position: 0 0;
+}
+.qy-video-icon.qy-video-pay{
+	background-image:url(../img/vip_100002_v_601_0_27.png);
+	width: 44px;
+	height: 27px;
+	background-position: 0 0;
+}
+.qy-video-icon.qy-video-self {
+ width:44px;
+ height:26px;
+ background-position:0 0
+}
+.qy-video-icon.qy-video-exc {
+ width:44px;
+ height:26px;
+ background-position:-60px 0
+}
+.qy-video-icon.qy-video-1080 {
+ width:57px;
+ height:26px;
+ background-position:-120px 0
+}
+.qy-video-icon.qy-video-subject {
+ width:44px;
+ height:26px;
+ background-position:0 -40px
+}
+.qy-video-icon.qy-video-paike {
+ width:44px;
+ height:26px;
+ background-position:-60px -40px
+}
+.qy-video-icon.qy-video-spread {
+ width:44px;
+ height:26px;
+ background-position:-180px 0
+}
+.qy-video-icon.qy-video-live {
+ width:44px;
+ height:26px;
+ background-position:-180px -40px
+}
+.qy-video-icon.qy-video-living {
+ width:57px;
+ height:26px;
+ background-position:-120px -40px
+}
+.qy-video-icon.qy-video-replay {
+ width:44px;
+ height:26px;
+ background-position:-240px -40px
+}
+.qy-video-icon.qy-video-prevue {
+ width:18px;
+ height:16px;
+ background-position:-260px 0
+}
+.qy-video-icon.qy-video-new {
+ width:18px;
+ height:16px;
+ background-position:-240px 0
+}
+.qy-video-icon.qy-video-today {
+ width:110px;
+ height:57px;
+ background-position:-300px 0
+}
+.qy-video-icon.qy-video-wenxue {
+ width:44px;
+ height:26px;
+ background-position:0 -80px
+}
+.qy-video-icon.qy-video-manhua {
+ width:44px;
+ height:26px;
+ background-position:-60px -80px
+}
+
+.qy-xl-play{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 10px;
+    bottom: 10px;
+    background: url(../img/video-info-playbtn-180511.png) no-repeat 0 0;
+}
+.qy-xl-play:hover{
+	background-position: -40px 0;
+}
+
+.pt-entry-icon {
+	display:block;
+	width:68px;
+	height:68px;
+	margin:0 auto;
+	background:url(../img/sprite-ptEntry-icons@2x.png) no-repeat;
+	background-size:580px 70px;
+}
+.pt-entry-icon.gongyi-icon {
+	background-position:0 0;
+}
+.pt-entry-icon.iqiyihao-icon {
+	background-position:-70px 0;
+}
+.pt-entry-icon.iqiyig-icon {
+	background-position:-140px 0;
+}
+.pt-entry-icon.iqiyigame-icon {
+	background-position:-210px 0;
+}
+.pt-entry-icon.iqiyiapps-icon {
+	background-position:-280px 0;
+}
+.pt-entry-icon.iqiyishop-icon {
+	background-position:-350px 0;
+}
+.pt-entry-icon.iqiyiproduce-icon {
+	background-position:-420px 0;
+}
+.pt-entry-icon.gamelive-icon {
+	background-position:-490px 0;
+}
+.pt-entry-icon.arrow-icon {
+	position:absolute;
+	top:3px;
+	right:-23px;
+	width:20px;
+	height:16px;
+	background-position:-560px 0;
+}
+
+.integral-icons {
+ 	display:inline-block;
+ 	vertical-align:top;
+ 	letter-spacing:0;
+ 	background:url(../img/integral-panel-icons.png) no-repeat
+}
+.integral-icons.watch {
+	width: 36px;
+	height: 36px;
+ 	background-position:-180px 0
+}
+.integral-icons.paopao {
+	width: 36px;
+	height: 36px;
+ 	background-position:-180px -40px
+}
+.integral-icons.sign {
+	width: 36px;
+	height: 36px;
+ 	background-position:-220px 0
+}
+.integral-icons.status-done {
+	width: 50px;
+	height: 50px;
+ 	background-position:-220px -40px;
+}
+
+
+@font-face {
+ font-family:"mobile-iconfont";
+ src:url("../font/mobile/iconfont.eot");
+ src:url("../font/mobile/iconfont.ttf") format("truetype"),url("../font/mobile/iconfont.svg") format("svg")
+}
+
+.c-glyphicon {
+ position:relative;
+ display:inline-block;
+ font-size:.14rem;
+ font-family:"mobile-iconfont"!important;
+ font-style:normal;
+ font-weight:normal;
+ line-height:1;
+ color:#8fdd90;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale
+}
+.c-glyphicon-feed:before {
+ content:"\e834"
+}
+.c-glyphicon-searchfine:before {
+ content:"\e83a";
+ font-size:1.1rem;
+ color:#b0b0b0
+}
+.c-glyphicon-recorder:before {
+ content:"\e83b";
+ font-size:1.1rem;
+ color:#b0b0b0
+}
+.c-glyphicon-search:before {
+ content:"\e600";
+ font-size:.12rem
+}
+.c-glyphicon-close:before {
+ content:"\e607";
+ color:#c9c9c9
+}
+.c-glyphicon-menu:before {
+ content:"\e823";
+ font-size:1.1rem;
+ color:#000
+}
+.c-glyphicon-arrowRight:before {
+ color:#999;
+ content:"\e835"
+}
+.c-glyphicon-arrowLeft {
+ -webkit-transform:rotate(-180deg);
+ -ms-transform:rotate(-180deg);
+ -o-transform:rotate(-180deg);
+ transform:rotate(-180deg)
+}
+.c-glyphicon-arrowLeft:before {
+ color:#666;
+ content:"\e835"
+}
+.c-glyphicon-arrowDown {
+ -webkit-transform:rotate(90deg);
+ -ms-transform:rotate(90deg);
+ -o-transform:rotate(90deg);
+ transform:rotate(90deg)
+}
+.c-glyphicon-arrowDown:before {
+ color:#666;
+ content:"\e835"
+}
+.c-glyphicon-more:before {
+ content:"\e833"
+}
+.c-glyphicon-refresh:before {
+ content:"\e83c"
+}
+.c-glyphicon-arrowUp:before {
+ color:#fff;
+ content:"\e60c"
+}
+.c-glyphicon-guideClose:before {
+ content:"\e608"
+}
+.c-glyphicon-orderOK:before {
+ content:"\e83d"
+}
+.c-glyphicon-orderHint:before {
+ content:"\e83e"
+}
+.c-glyphicon-searchhome:before {
+ content:"\e845";
+ color:#fff
+}
+.c-glyphicon-explain:before {
+ content:"\e846";
+ color:#fff
+}
+.c-glyphicon-fullscreen:before {
+ content:"\e612";
+ color:#fff;
+ font-size:.18rem
+}
+.c-glyphicon-checkboxed:before {
+ content:"\e622"
+}
+.c-glyphicon-checkbox:before {
+ content:"\e626"
+}
+.c-glyphicon-cellphone:before {
+ content:"\e861";
+ color:#999
+}
+.c-glyphicon-computer:before {
+ content:"\e862";
+ color:#999
+}
+.c-glyphicon-television:before {
+ content:"\e863";
+ color:#999
+}
+.c-glyphicon-jia:before {
+ content:"\e864";
+ color:#21bd22
+}
+.c-glyphicon-warn:before {
+ content:"\e630";
+ color:#ff724b
+}
+.c-glyphicon-iqy:before {
+ content:"\e7fb";
+ color:#fff
+}
+.c-glyphicon-albumPlay:before {
+ content:"\e865";
+ color:#20bc22;
+ font-size:.16rem
+}
+.c-glyphicon-tennis:before {
+ content:"\e85e";
+ color:#1d3900;
+ font-size:.16rem
+}
+.c-glyphicon-add:before {
+ content:"\e864";
+ color:#fff;
+ font-size:.12rem
+}
+.c-glyphicon-edit:before {
+ content:"\e86e"
+}
+.c-glyphicon-hot:before {
+ content:"\e86f";
+ color:#ff6b31
+}
+.c-glyphicon-album-Bplay:before {
+ content:"\e879";
+ color:#fff
+}
+.c-glyphicon-album-Splay:before {
+ content:"\e87a";
+ color:#fff
+}
+.c-glyphicon-messages:before {
+ content:"\e87f";
+ color:#fff
+}
+.c-glyphicon-playRefresh:before {
+ content:"\e881"
+}
+.c-glyphicon-playShare:before {
+ content:"\e882"
+}
+.c-glyphicon-time:before {
+ content:"\e634"
+}
+.c-glyphicon-roundArrow:before {
+ content:"\e606";
+ color:#0abe06;
+ font-weight:bold
+}
+
+.menu-more-icon{
+ display: block;
+ width: 2rem;
+ height: 2rem;
+ background: url(../img/menu-more-icon.png) no-repeat 0 0;
+ background-size: auto auto;
+ background-size: 4rem 2rem;
+}
+
+.c-myicon {
+ background-image:url(../img/c-myicon.png);
+ display:inline-block;
+ background-repeat:no-repeat;
+ width:20px;
+ height:20px;
+ background-size:160px 60px;
+ vertical-align:-4px;
+}
+.c-myicon-xiaoxi {
+ background-position:0 0
+}
+.c-myicon-bofangjilu {
+ background-position:-20px 0
+}
+.c-myicon-shoucang {
+ background-position:-40.4px 0
+}
+.c-myicon-dingyue {
+ background-position:-60px 0
+}
+.c-myicon-wodezhanghao {
+ background-position:-80px 0
+}
+.c-myicon-mianliuliang {
+ background-position:-100px 0
+}
+.c-myicon-anquanzhongxin {
+ background-position:-120px 0
+}
+.c-myicon-guanyuwomen {
+ background-position:-140px 0
+}
+.c-myicon-shipingengxin {
+ background-position:0 -20px
+}
+.c-myicon-xitongtongzhi {
+ background-position:-20px -20px
+}
+.c-myicon-pinglun {
+ background-position:-40px -20px
+}
+.c-myicon-zan {
+ background-position:-60px -20px
+}
+.c-myicon-xinzengfensi {
+ background-position:-80px -20px
+}
+.c-myicon-gongsijieshao {
+ background-position:-100px -20px
+}
+.c-myicon-xinwendongtai {
+ background-position:-120px -20px
+}
+.c-myicon-jiaruwomen {
+ background-position:-140px -20px
+}
+.c-myicon-suo {
+ background-position:0 -40px
+}
+.c-myicon-video {
+ background-position:-20px -41px
+}
+.c-myicon-wenxue {
+ background-position:-60px -41px
+}
+.c-myicon-videoselected {
+ background-position:-40px -40px
+}
+.c-myicon-wenxueselected {
+ background-position:-80px -40px
+}
+.c-myicon-statement {
+ background-position:-100px -40px
+}
+
+.c-viptennis-icon{
+	background-image: url(../img/viptennis-icon-20180622.png);
+	background-size: 150px 70px;
+	display: inline-block;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.c-tiyutennis-icon{
+	background-image: url(../img/viptennis-icon-20180622.png);
+	background-size: 150px 70px;
+	display: inline-block;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	background-position: -100px 0;
+}
+
+
+
+.c-listicon {
+ background:url(../img/channel-list-20180119.png);
+ display:inline-block;
+ background-repeat:no-repeat;
+ background-size:15rem 15rem;
+ width:2.5rem;
+ height:2.5rem
+}
+.c-list-dianshiju {
+ background-position:0 0
+}
+.c-list-dianying {
+ background-position:-12.5rem 0
+}
+.c-list-pianhua {
+ background-position:-5rem 0
+}
+.c-list-jilupian {
+ background-position:-7.5rem 0
+}
+.c-list-wangluodianying {
+ background-position:-10rem 0
+}
+.c-list-quanwangyingshi {
+ background-position:-12.5rem 0
+}
+.c-list-zongyi {
+ background-position:0 -12.5rem
+}
+.c-list-dongman {
+ background-position:-12.5rem -12.5rem
+}
+.c-list-tuokouxiu {
+ background-position:-5rem -12.5rem
+}
+.c-list-yule {
+ background-position:-7.5rem -12.5rem
+}
+.c-list-gaoxiao {
+ background-position:-10rem -12.5rem
+}
+.c-list-yinyue {
+ background-position:-12.5rem -12.5rem
+}
+.c-list-youxi {
+ background-position:0 -5rem
+}
+.c-list-redian {
+ background-position:-12.5rem -5rem
+}
+.c-list-fengyunbang {
+ background-position:-5rem -5rem
+}
+.c-list-zixun {
+ background-position:-7.5rem -5rem
+}
+.c-list-yuanchuang {
+ background-position:-10rem -5rem
+}
+.c-list-zhibo {
+ background-position:-12.5rem -5rem
+}
+.c-list-ertong {
+ background-position:0 -7.5rem
+}
+.c-list-muying {
+ background-position:-12.5rem -7.5rem
+}
+.c-list-jiaoyu {
+ background-position:-5rem -7.5rem
+}
+.c-list-jiankang {
+ background-position:-7.5rem -7.5rem
+}
+.c-list-shenghuo {
+ background-position:-10rem -7.5rem
+}
+.c-list-tiyu {
+ background-position:-12.5rem -7.5rem
+}
+.c-list-keji {
+ background-position:0 -10rem
+}
+.c-list-junshi {
+ background-position:-12.5rem -10rem
+}
+.c-list-qiche {
+ background-position:-5rem -10rem
+}
+.c-list-caijing {
+ background-position:-7.5rem -10rem
+}
+.c-list-lvyou {
+ background-position:-10rem -10rem
+}
+.c-list-shishang {
+ background-position:-12.5rem -10rem
+}
+.c-list-iqychupin {
+ background-position:0 -12.5rem
+}
+.c-list-paike {
+ background-position:-12.5rem -12.5rem
+}
+.c-list-guanggao {
+ background-position:-5rem -12.5rem
+}
+.c-list-gongyi {
+ background-position:-7.5rem -12.5rem
+}
+.c-list-qixiu {
+ background-position:-10rem -12.5rem
+}
+.c-list-yingxun {
+ background-position:-12.5rem -12.5rem
+}
+
+
+.c-channelicon {
+ background-image:url(../img/channel-icon-20180119.png);
+ background-repeat:no-repeat;
+ width:1.2rem;
+ height:1.2rem;
+ background-size:7.2rem auto;
+ display:inline-block;
+ line-height:1.2rem;
+ margin-top:0.25rem;
+ margin-left:-0.1rem
+}
+.c-channel-zixun {
+ background-position:0 0
+}
+.c-channel-dianshiju {
+ background-position:-1.2rem 0
+}
+.c-channel-dianying {
+ background-position:-2.4rem 0
+}
+.c-channel-dongman {
+ background-position:-3.6rem 0
+}
+.c-channel-zongyi {
+ background-position:-4.8rem 0
+}
+.c-channel-yule {
+ background-position:-1.2rem 0
+}
+.c-channel-yuanchuang {
+ background-position:0 -1.2rem
+}
+.c-channel-toutiao {
+ background-position:-1.2rem -1.2rem
+}
+.c-channel-youxi {
+ background-position:-2.4rem -1.2rem
+}
+.c-channel-ertong {
+ background-position:-3.6rem -1.2rem
+}
+.c-channel-muying {
+ background-position:-4.8rem -1.2rem
+}
+.c-channel-jiaoyu {
+ background-position:-1.2rem -1.2rem
+}
+.c-channel-jilupian {
+ background-position:0 -2.4rem
+}
+.c-channel-shenghuo {
+ background-position:-1.2rem -2.4rem
+}
+.c-channel-jiankang {
+ background-position:-2.4rem -2.4rem
+}
+.c-channel-tiyu {
+ background-position:-3.6rem -2.4rem
+}
+.c-channel-shishang {
+ background-position:-4.8rem -2.4rem
+}
+.c-channel-gaoxiao {
+ background-position:-1.2rem -2.4rem
+}
+.c-channel-pianhua {
+ background-position:0 -3.6rem
+}
+.c-channel-yinyue {
+ background-position:-1.2rem -3.6rem
+}
+.c-channel-lvyou {
+ background-position:-2.4rem -3.6rem
+}
+.c-channel-junshi {
+ background-position:-3.6rem -3.6rem
+}
+.c-channel-caijing {
+ background-position:-4.8rem -3.6rem
+}
+.c-channel-qiche {
+ background-position:-1.2rem -3.6rem
+}
+.c-channel-keji {
+ background-position:0 -4.8rem
+}
+.c-channel-yingyong {
+ background-position:-1.2rem -4.8rem
+}
+.c-channel-zixun-play {
+ background-position:-2.4rem -4.8rem
+}
+.c-channel-tennis {
+ background-position:-3.6rem -4.8rem
+}
+.c-channel-qixiu {
+ background-position:-4.8rem -4.8rem
+}
+.c-channel-look {
+ background-position:-1.2rem -4.8rem
+}

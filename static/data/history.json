@@ -1,0 +1,116 @@
+{
+	"code":200,
+	"data":{
+		"list":[{
+			"time":"今天",
+			"list":[{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 剧场版12：FILM Z",
+				"surplus":3,
+				"hasSequel":false,
+				"isShort":false,
+				"length":"01:47:50",
+				"surplusLen":"03:33",
+				"img":"/static/img/news-pic-96.jpg"
+			},{
+				"name":"航海王 剧场版13：FILM 黄金城",
+				"surplus":0,
+				"hasSequel":true,
+				"isShort":false,
+				"length":"01:34:26",
+				"surplusLen":"已看完",
+				"img":"/static/img/news-pic-97.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			}]
+		},{
+			"time":"一周前",
+			"list":[{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			},{
+				"name":"航海王 第573集",
+				"surplus":30,
+				"hasSequel":true,
+				"isShort":true,
+				"length":"23:20",
+				"surplusLen":"08:56",
+				"img":"/static/img/news-pic-95.jpg"
+			}]
+		}]
+	}
+}

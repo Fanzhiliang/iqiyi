@@ -1,0 +1,65 @@
+{
+	"code":200,
+	"data":{
+		"examples":[
+			{"title":"足球","href":"#"},{"title":"篮球","href":"#"}
+		],
+		"list":[
+			{
+				"title":"英超-若日尼奥点射坎特佩刀建功 切尔西3-0哈镇",
+				"time":"08-12期",
+				"tag":"1080p",
+				"img":"/static/img/news-pic-71.jpg",
+				"href":"#"
+			},
+			{
+				"title":"WTA罗杰斯杯-哈勒普直落两盘击败巴蒂进决赛",
+				"time":"04:49",
+				"img":"/static/img/news-pic-72.jpg",
+				"href":"#"
+			},
+			{
+				"title":"英超揭幕战-博格巴卢克肖建功 曼联2-1蓝狐",
+				"time":"05:35",
+				"img":"/static/img/news-pic-73.jpg",
+				"href":"#"
+			},
+			{
+				"title":"2018WTA罗杰斯杯女单1/4决赛 哈勒普VS加西亚 中文",
+				"time":"08-11期",
+				"tag":"1080p",
+				"img":"/static/img/news-pic-74.jpg",
+				"href":"#"
+			},
+			{
+				"title":"皇马宣布库尔图瓦加盟 转会费3500万欧签约6年",
+				"time":"01:28",
+				"tag":"1080p",
+				"img":"/static/img/news-pic-75.jpg",
+				"href":"#"
+			},
+			{
+				"title":"罗杰斯杯德约1-2负希腊新星 迪米险胜晋级八强",
+				"program":"中国新说唱",
+				"time":"01:47",
+				"tag":"1080p",
+				"img":"/static/img/news-pic-76.jpg",
+				"href":"#"
+			},
+			{
+				"title":"2018WTA罗杰斯杯女单1/4决赛 哈勒普VS加西亚 中文",
+				"time":"08-11期",
+				"tag":"1080p",
+				"img":"/static/img/news-pic-74.jpg",
+				"href":"#"
+			},
+			{
+				"title":"2018WTA罗杰斯杯女单1/4决赛 哈勒普VS加西亚 中文",
+				"time":"08-11期",
+				"tag":"1080p",
+				"img":"/static/img/news-pic-74.jpg",
+				"href":"#"
+			}
+		]
+	}
+}
