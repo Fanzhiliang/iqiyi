@@ -1,5 +1,5 @@
 <template>
-	<div class="today" v-if="newsList.length > 0">
+	<div class="m-today" v-if="newsList.length > 0">
 		<a href="#" class="headline">
 			<i class="c-channelicon c-channel-zixun"></i>
 			<span>今日资讯</span>
@@ -55,20 +55,20 @@ export default{
 </script>
 
 <style>
-.today{
+.m-today{
 	border-bottom: 1px solid rgb(240, 240, 240);
 	overflow-x: hidden;
 }
-.today .headline{
+.m-today .headline{
 	display: block;
 	width: 100%;
 	padding: 0.35rem 0.6rem;
 	height: 1.75rem;
 }
-.today .headline i{
+.m-today .headline i{
 	line-height: 1.75rem;
 }
-.today .headline span{
+.m-today .headline span{
 	display: inline-block;
 	color: #333;
 	font-size: 0.75rem;
@@ -76,10 +76,10 @@ export default{
 	line-height: 1.75rem;
 	vertical-align: top;
 }
-.today .news{
+.m-today .news{
 	padding: 0 0.6rem;
 }
-.today .news a{
+.m-today .news a{
 	height: 0.75rem;
 	display: block;
 	color: #333;
@@ -92,21 +92,21 @@ export default{
 	white-space: nowrap;
 	margin-bottom: 0.75rem;
 }
-.today .news a i{
+.m-today .news a i{
 	line-height: 1.5rem;
 	position: absolute;
 	top: -0.18rem;
 	left: -0.15rem;
 	margin: 0;
 }
-.today .videos{
+.m-today .videos{
 	overflow: hidden;
 }
-.today .bottom{
+.m-today .bottom{
 	width: 100%;
 	height: 2.5rem;
 }
-.today .bottom a{
+.m-today .bottom a{
 	color: #00be06;
 	display: inline-block;
 	line-height: 2.5rem;
@@ -114,7 +114,7 @@ export default{
 	font-size: 0.7rem;
 	text-align: center;
 }
-.today .bottom a i:before{
+.m-today .bottom a i:before{
 	font-size: 0.7rem;
 	position: relative;
 	left: 0.3rem;
