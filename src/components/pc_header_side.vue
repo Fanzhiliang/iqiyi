@@ -177,7 +177,7 @@
 				<span class="isFilter" @click="toggleFilter">
 					<i :class="['qy-head-side-icon','side-icon-radio',{selected:isFilter}]"></i>过滤短视频
 				</span>
-				<div class="history-list" v-if="historyData && historyData.list.length > 0">
+				<div class="history-list" v-if="historyLength > 0">
 					<template v-for="(item,index) in historyData.list">
 						<div class="list-head" v-if="!(isAllShort(item.list)&&isFilter)" v-show="item.list.length>0">
 							<span>{{item.time}}</span>
@@ -238,6 +238,13 @@ export default{
 		historyData: function(){
 			return this.$store.state.historyData;
 		},
+		historyLength: function(){
+			let result = [];
+			for(let i=0;i<this.$store.state.historyData.list.length;i++){
+				result = result.concat(this.$store.state.historyData.list[i].list);
+			}
+			return result.length;
+		},
 		user(){
 			return this.$store.state.user;
 		}
@@ -279,7 +286,8 @@ export default{
 			return result === list.length;
 		},
 		deleteItem: function(index,index2){
-			this.historyData.list[index].list.splice(index2,1);
+			this.$store.commit('deleteHistoryData',index,index2);
+			console.log(this.$store.state.historyData.list.length)
 		}
 	},
 	created:function(){

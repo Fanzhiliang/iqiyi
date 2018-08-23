@@ -39,6 +39,9 @@ export default new vuex.Store({
 					console.log('获得观看历史失败:');console.log(response.data.data.message)
 				}
 			},(response)=>{console.log('获得观看历史失败:');console.log(response);});
+		},
+		deleteHistoryData: function(state,index,index2){
+			state.historyData.list[index].list.splice(index2,1);
 		}
     }
 })
