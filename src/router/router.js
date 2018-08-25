@@ -16,27 +16,27 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/dist/',
+      path: '/',
       component: isMobile?mIndex:pcIndex
     },
     {
-      path: '/dist/search',
+      path: '/search',
       component: isMobile?mSearch:{}
     },
     {
-      path: '/dist/history',
+      path: '/history',
       component: isMobile?mHistory:{}
     },
     {
-      path: '/dist/home',
+      path: '/home',
       component: isMobile?mHome:{}
     },
     {
-      path: '/dist/channel',
+      path: '/channel',
       component: isMobile?mChannel:{}
     },
     {
-      path: '/dist/404',
+      path: '/404',
       component: error
     },
     {
