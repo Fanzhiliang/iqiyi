@@ -1,5 +1,5 @@
 <template>
-	<div class="sidebar" :style="sidebarStyle" @click.stop="">
+	<div class="sidebar" :style="sidebarStyle" @click.prevent.stop="">
 		<ul>
 			<li>
 				<a href="#" :class="['integral',integralStyle]" @mouseenter="showInner" @mouseleave="hideInner">
