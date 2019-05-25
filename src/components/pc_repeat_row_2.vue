@@ -6,18 +6,18 @@
 				<a href="#" class="head-name"><h3>{{that.name}}</h3><span v-if="id != 'guesslove'">更多></span></a>
 				<span class="examples" v-if="data.examples">
 					<template v-for="item in data.examples">
-						<a :href="item.href">{{item.title}}</a><span>/</span>
+						<a :href="item.href" :title="item.title">{{item.title}}</a><span>/</span>
 					</template>
 				</span>
 				<a :href="data.headlineHref" class="headlineImg" v-if="id == 'orderupate'">
-					<img :src="data.headlineImg" alt="">
+					<img v-lazy="data.headlineImg" alt="">
 					<span>必看番机动队</span>
 				</a>
 			</div>
 			<div class="row-videos">
 				<div class="video" v-for="item in data.list">
 					<a :href="item.href" class="video-up" :title="item.title">
-						<img :src="item.img" alt="">
+						<img v-lazy="item.img" alt="">
 						<a v-if="item.tag" :href="item.href" :class="['tag','qy-video-icon',tags[item.tag]]"></a>
 						<a v-if="item.time" :href="item.href" class="time">{{item.time}}</a>
 					</a>

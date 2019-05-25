@@ -8,20 +8,20 @@
 					<template v-if="data.icons">
 						<template v-for="item in data.icons">
 							<a :href="item.href">
-								<img :src="item.img" alt="">
+								<img v-lazy="item.img" alt="">
 							</a>
 						</template>
 						<span class="icon-separate">/</span>
 					</template>
 					<template v-if="data.examples" v-for="item in data.examples">
-						<a :href="item.href">{{item.title}}</a><span>/</span>
+						<a :href="item.href" :title="item.title">{{item.title}}</a><span>/</span>
 					</template>
 				</span>
 			</div>
 			<div class="row-slider" @mouseenter="stopCycle" @mouseleave="startCycle">
 				<div class="slider-items clearfix">
 					<a :href="item.href" :style="item.style" :class="['link',{on:item.isOn}]" v-for="item in sliderList">
-						<img :src="item.img" alt="">
+						<img v-lazy="item.img" alt="">
 					</a>
 					<div class="toggle-group">
 						<i class="qy-common-icon qy-common-pageleft32 prev" @click="toggleItem(-1)"></i>
@@ -39,12 +39,12 @@
 			<div class="row-videos clearfix">
 				<div class="video" v-for="item in data.list">
 					<a :href="item.href" class="video-up" :title="item.title">
-						<img :src="item.img" alt="">
+						<img v-lazy="item.img" alt="">
 						<a v-if="item.tag" :href="item.href" :class="['tag','qy-video-icon',tags[item.tag]]"></a>
 						<a v-if="item.time" :href="item.href" class="time">{{item.time}}</a>
 					</a>
 					<div class="video-down">
-						<p class="title" :title="item.title"><a :href="item.href">{{item.title}}</a></p>
+						<p class="title"><a :href="item.href" :title="item.title">{{item.title}}</a></p>
 						<p class="info" v-if="item.info">{{item.info}}</p>
 					</div>
 				</div>

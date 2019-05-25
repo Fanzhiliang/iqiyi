@@ -7,14 +7,14 @@
 		],
 		"slider":[
 			{
-				"href":"#","img":"/static/img/slider-bg-15.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/slider-bg-15.jpg",
 				"title":"了不起的孩子第3季",
 				"info":"李诞颜值遭小包公嫌弃 3岁记忆神童秒答对圆周率数字",
 				"time":"08-05期",
 				"tag":"exc"
 			},
 			{
-				"href":"#","img":"/static/img/slider-bg-16.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/slider-bg-16.jpg",
 				"title":"陪你看说唱",
 				"info":"ICE正面回应网友质疑 臧鸿飞揭秘与张震岳热狗交情",
 				"time":"08-04期",
@@ -23,7 +23,7 @@
 		],
 		"list":[
 			{
-				"href":"#","img":"/static/img/news-pic-9.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-9.jpg",
 				"title":"跨界歌王第3季",
 				"info":"刘恺威《追》唱哭吴秀波",
 				"time":"08-04期",
@@ -31,7 +31,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-10.gif",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-10.gif",
 				"title":"中国好声音：张神儿",
 				"info":"《母系社会》引导师双双转身",
 				"time":"08-03期",
@@ -39,7 +39,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-11.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-11.jpg",
 				"title":"同一堂课",
 				"info":"王洛勇双语教学讲曹操诗作",
 				"time":"08-05期",
@@ -47,7 +47,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-9.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-9.jpg",
 				"title":"跨界歌王第3季",
 				"info":"刘恺威《追》唱哭吴秀波",
 				"time":"08-04期",
@@ -55,7 +55,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-10.gif",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-10.gif",
 				"title":"中国好声音：张神儿",
 				"info":"《母系社会》引导师双双转身",
 				"time":"08-03期",
@@ -63,7 +63,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-11.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-11.jpg",
 				"title":"同一堂课",
 				"info":"王洛勇双语教学讲曹操诗作",
 				"time":"08-05期",
@@ -71,7 +71,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-12.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-12.jpg",
 				"title":"嗨！蓝朋友",
 				"info":"沙溢指压板记歌词虐哭",
 				"time":"08-04期",
@@ -79,7 +79,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-13.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-13.jpg",
 				"title":"熟悉的味道第3季",
 				"info":"胡可遭挚友送惊喜表白落泪",
 				"time":"08-05期",
@@ -87,7 +87,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-14.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-14.jpg",
 				"title":"最优的我们",
 				"info":"感动！玮柏为学员做幕后和声",
 				"time":"08-04期",
@@ -95,7 +95,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-12.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-12.jpg",
 				"title":"嗨！蓝朋友",
 				"info":"沙溢指压板记歌词虐哭",
 				"time":"08-04期",
@@ -103,7 +103,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-13.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-13.jpg",
 				"title":"熟悉的味道第3季",
 				"info":"胡可遭挚友送惊喜表白落泪",
 				"time":"08-05期",
@@ -111,7 +111,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-14.jpg",
+				"href":"#","img":"http://image.alcyh.com/static/img/news-pic-14.jpg",
 				"title":"最优的我们",
 				"info":"感动！玮柏为学员做幕后和声",
 				"time":"08-04期",

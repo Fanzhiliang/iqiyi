@@ -7,7 +7,7 @@
 			<i class="qy-common-icon qy-common-pageleft32 prev" @click="toggleList(-1)"></i>
 			<i class="qy-common-icon qy-common-pageright32 next" @click="toggleList(1)"></i>
 			<div class="ads clearfix" @mouseleave="adLeave">
-				<a :href="item.href" :style="item.style" :class="['ad',{enter:item.isEnter,'enter-left':item.isLeft,leave:item.isLeave}]" v-for="(item,index) in showList" @mouseenter="adEnter(index)">
+				<a :href="item.href" style="" class="ad" v-for="(item,index) in showList" @mouseenter="adEnter(index)" :style="item.style">
 					<div class="ad-inner clearfix">
 						<div class="left" ref="itemWidth">
 							<img :src="item.left" alt="">
@@ -37,98 +37,18 @@ export default{
 	},
 	methods:{
 		adEnter: function(index){
-			if(this.isHover){return false;}
-			this.isHover = true;
-			this.currIndex = index;
-			let itemWidth = parseFloat(this.GLOBAL.getStyle(this.$refs.itemWidth[0],'width')),
-				itemMargin = parseFloat(this.GLOBAL.getStyle(this.$refs.itemWidth[0],'margin-right')),
-				tempWidth = itemWidth+itemMargin;
-			this.showList.forEach((item,i)=>{
-				this.$set(this.showList[i],'isLeft',i<index);
-				this.$set(this.showList[i],'isEnter',i===index);
-				this.$set(this.showList[i],'isLeave',false);
-				if(i<=this.currIndex){
-					let targetOne = i>=4?-4*tempWidth:-i*tempWidth,
-						targetTwo = itemWidth*5+itemMargin*4,
-						currLeft = 0,
-						currWidth = itemWidth,
-						move = ()=>{
-							if(i<this.currIndex){
-								currLeft=parseFloat(this.showList[i].style.transform.split('(')[1].split(')')[0]);
-							}else if(i==this.currIndex){
-								currLeft = parseFloat(this.showList[i].style['margin-left']);
-							}
-							currLeft += targetOne/40;
-							currWidth += targetTwo/40;
-							if(currLeft <= targetOne && currWidth >= targetTwo){
-								currLeft = targetOne;
-								currWidth = targetTwo;
-							}else{
-								this.moveObj[i] = setTimeout(move,1);
-							}
-							if(this.moveObj[i]){
-								if(i<this.currIndex){
-									this.$set(this.showList[i].style,'transform','translateX('+currLeft+'px)');
-								}else if(i==this.currIndex){
-									this.$set(this.showList[i].style,'margin-left',currLeft+'px');
-									this.$set(this.showList[i].style,'width',currWidth+'px');
-								}
-							}
-						}
-					move();
+			// this.GLOBAL.getWindowWidth()
+			let marginLeftStep = this.GLOBAL.getWindowWidth()>=1300?215:185;
+			this.data.forEach((item,i)=>{
+				if(i<=index && i>0 && i<=4){
+					item.style['margin-left'] = -marginLeftStep + 'px';
 				}
-			});
+			})
 		},
 		adLeave: function(){
-			this.moveObj.forEach((item)=>{
-				clearTimeout(item);
-			});
-			let itemWidth = parseFloat(this.GLOBAL.getStyle(this.$refs.itemWidth[0],'width')),
-				itemMargin = parseFloat(this.GLOBAL.getStyle(this.$refs.itemWidth[0],'margin-right')),
-				tempWidth = itemWidth+itemMargin;
-			this.showList.forEach((item,i)=>{
-				this.$set(this.showList[i],'isLeft',false);
-				this.$set(this.showList[i],'isEnter',false);
-				this.$set(this.showList[i],'isLeave',i===this.currIndex);
-				if(i<=this.currIndex){
-					let oldOne = 0,
-						oldTwo = itemWidth*5+itemMargin*4;
-					if(i<this.currIndex){
-						oldOne = parseFloat(this.showList[i].style.transform.split('(')[1].split(')')[0]);
-					}else if(i==this.currIndex){
-						oldOne = parseFloat(this.showList[i].style['margin-left']);
-					}
-					let	currLeft = 0,
-						currWidth = oldTwo,
-						move = ()=>{
-							if(i<this.currIndex){
-								currLeft=parseFloat(this.showList[i].style.transform.split('(')[1].split(')')[0]);
-							}else if(i==this.currIndex){
-								currLeft = parseFloat(this.showList[i].style['margin-left']);
-							}
-							currLeft -= oldOne/40;
-							currWidth -= oldTwo/40;
-							if(currLeft >= 0 && currWidth <= itemWidth){
-								currLeft = 0;
-								currWidth = itemWidth;
-							}else{
-								this.moveObj[i] = setTimeout(move,1);
-							}
-							if(this.moveObj[i]){
-								if(i<this.currIndex){
-									this.$set(this.showList[i].style,'transform','translateX('+currLeft+'px)');
-								}else if(i==this.currIndex){
-									this.$set(this.showList[i].style,'margin-left',currLeft+'px');
-									this.$set(this.showList[i].style,'width',currWidth+'px');
-								}
-							}
-						}
-					move();
-				}else{
-					this.$set(this.showList[i].style,'transform','translateX(0px)');
-				}
-			});
-			this.isHover = false;
+			this.data.forEach((item)=>{
+				item.style['margin-left'] = '';
+			})
 		},
 		superPush: function(arr,index,dir){
 			if(typeof dir !== 'number'){dir=1;}
@@ -149,12 +69,6 @@ export default{
 			};
 		},
 		toggleList: function(dir){
-			this.data.forEach((item,i)=>{
-				this.$set(this.data[i],'isEnter',false);
-				this.$set(this.data[i],'isLeave',false);
-				this.$set(this.data[i],'isLeft',false);
-				this.$set(this.data[i],'style',{transform:'translateX(0px)','margin-left':'0px',width:''});
-			});
 			let result = this.superPush(this.data,this.flagIndex,dir);
 			this.showList = result.array;
 			this.flagIndex = result.index+1;
@@ -165,10 +79,7 @@ export default{
 			if(response.data.code === 200){
 				let tempList = response.data.data.list;
 				tempList.forEach((item)=>{
-					item.isEnter = false;
-					item.isLeave = false;
-					item.isLeft = false;
-					item.style = {transform:'','margin-left':'',width:''};
+					item.style = {'margin-left':''};
 				});
 				this.data = tempList;
 				this.toggleList(1);

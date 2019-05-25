@@ -7,24 +7,24 @@
 		"list":[
 			{
 				"title":"《巨齿鲨》影票大放送！",
-				"img":"/static/img/news-pic-45.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-45.jpg",
 				"href":"#"
 			},
 			{
 				"title":"《一出好戏》终极预告",
 				"tag":"1080p",
-				"img":"/static/img/news-pic-46.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-46.jpg",
 				"href":"#"
 			},
 			{
 				"title":"《巨齿鲨》终极预告",
-				"img":"/static/img/news-pic-47.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-47.jpg",
 				"href":"#"
 			},
 			{
 				"title":"《碟中谍6：全面瓦解》曝“最强战队”版特辑 任务小组全员集结！",
 				"tag":"1080p",
-				"img":"/static/img/news-pic-48.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-48.jpg",
 				"href":"#"
 			}
 		]

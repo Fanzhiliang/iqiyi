@@ -8,14 +8,14 @@
 		"list":[
 			{
 				"title":"鲨鱼周30年大展",
-				"img":"/static/img/cover-1.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-1.jpg",
 				"infoS":"贝爷奥尼尔深海激斗鲨鱼",
 				"update":"",
 				"href":"#"
 			},
 			{
 				"title":"大三线",
-				"img":"/static/img/cover-2.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-2.jpg",
 				"tag":"vip",
 				"infoS":"新中国绝密军事工程首公开",
 				"update":"更新至3集",
@@ -23,7 +23,7 @@
 			},
 			{
 				"title":"讲究 第四季",
-				"img":"/static/img/cover-3.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-3.jpg",
 				"tag":"1080p",
 				"infoS":"青花瓷大师助国宝“回家”",
 				"update":"更新至7集",
@@ -31,7 +31,7 @@
 			},
 			{
 				"title":"最后的棒棒",
-				"img":"/static/img/cover-4.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-4.jpg",
 				"tag":"vip",
 				"infoS":"8.17电影版全国公映",
 				"update":"13集全",
@@ -39,7 +39,7 @@
 			},
 			{
 				"title":"如果国宝会说话 第2季",
-				"img":"/static/img/cover-5.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-5.jpg",
 				"tag":"1080p",
 				"infoS":"8.17电影版全国公映",
 				"update":"25集全",
@@ -47,7 +47,7 @@
 			},
 			{
 				"title":"塔里木河",
-				"img":"/static/img/cover-6.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-6.jpg",
 				"tag":"vip",
 				"infoS":"读懂这条河就读懂新疆",
 				"update":"25集全",
@@ -55,7 +55,7 @@
 			},
 			{
 				"title":"最后的棒棒",
-				"img":"/static/img/cover-4.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-4.jpg",
 				"tag":"vip",
 				"infoS":"8.17电影版全国公映",
 				"update":"13集全",
@@ -63,7 +63,7 @@
 			},
 			{
 				"title":"大三线",
-				"img":"/static/img/cover-2.jpg",
+				"img":"http://image.alcyh.com/static/img/cover-2.jpg",
 				"tag":"vip",
 				"infoS":"新中国绝密军事工程首公开",
 				"update":"更新至3集",

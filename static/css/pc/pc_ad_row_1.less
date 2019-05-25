@@ -56,10 +56,15 @@
 			height: 85px;
 			overflow: hidden;
 			margin-left: 5px;
+			position: relative;
 			@media screen{
 				@media (min-width: 1300px){
 					height: 100px;
 				}
+			}
+			*{transition: all .5s cubic-bezier(.46,.98,.54,1.1);}
+			&:hover{
+				*{transition: all .5s;}
 			}
 			.ad{
 				float: left;
@@ -74,61 +79,55 @@
 				overflow: hidden;
 				margin-right: 5px;
 				font-size: 0;
-				transition: all .5s cubic-bezier(.46,.98,.54,1.1);
-				&:hover{
-					transition: all .5s;
+				@media screen{
+					@media (max-width: 1300px){
+						&:hover{
+							width: 920px;
+							.right{img{opacity: 1;}}
+						}
+					}
+				}
+				@media screen{
+					@media (min-width: 1300px){
+						&:hover{
+							transition: all .5s;
+							width: 1065px;
+							.right{img{opacity: 1;}}
+						}
+					}
 				}
 				.ad-inner{
 					width: 9999px;
 					height: 100%;
-					.left{
-						width: 180px;
+				}
+				.left{
+					width: 180px;
+					@media screen{
+						@media (min-width: 1300px){
+							width: 210px;
+						}
+					}
+					height: 100%;
+					float: left;
+					margin-right: 5px;
+					img{
+						display: block;
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.right{
+					width: auto;
+					height: 100%;
+					float: left;
+					img{
+						opacity: 0;
+						height: 100%;
+						width: 735px;
 						@media screen{
 							@media (min-width: 1300px){
-								width: 210px;
+								width: auto;
 							}
-						}
-						height: 100%;
-						float: left;
-						margin-right: 5px;
-						img{
-							display: block;
-							width: 100%;
-							height: 100%;
-						}
-					}
-					.right{
-						width: auto;
-						height: 100%;
-						float: left;
-						img{
-							opacity: 0;
-							height: 100%;
-							width: auto;
-						}
-					}
-				}
-				// &.enter-left:nth-child(1),
-				// &.enter-left:nth-child(2),
-				// &.enter-left:nth-child(3),
-				// &.enter-left:nth-child(4){
-				// 	// animation: ad-fade-re 0.01s;
-				// 	// animation-delay: 0.7s;
-				// 	// animation-fill-mode: forwards;
-				// }
-				&.enter{
-					.right{
-						img{
-							animation: ad-fade 0.3s linear;
-							animation-fill-mode: forwards;
-						}
-					}
-				}
-				&.leave{
-					.right{
-						img{
-							animation: ad-fade-re 0.7s linear;
-							animation-fill-mode: forwards;
 						}
 					}
 				}

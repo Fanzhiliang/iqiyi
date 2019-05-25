@@ -30,7 +30,7 @@
 				</div>
 				<a :href="item.href" :title="item.title" class="pic-new" v-for="item in news.pic1">
 					<div class="img-frame">
-						<img :src="item.src" alt="">
+						<img v-lazy="item.src" alt="">
 					</div>
 					<div class="p-frame">
 						<p>{{item.title}}</p>
@@ -40,7 +40,7 @@
 			<div class="stars">
 				<div class="start-slider" @mouseenter="stopCycle" @mouseleave="startCycle">
 					<a :href="item.href" :class="['slider-item',{on:item.isOn}]" :style="item.style" v-for="item in sliderList">
-						<img :src="item.img" alt="">
+						<img v-lazy="item.img" alt="">
 					</a>
 					<div class="slider-ctrl">
 						<div class="ctrl-up">
@@ -64,7 +64,7 @@
 			<div class="pics clearfix">
 				<a :href="item.href" :title="item.title" class="pic-new" v-for="item in news.pic2">
 					<div class="img-frame">
-						<img :src="item.src" alt="">
+						<img v-lazy="item.src" alt="">
 					</div>
 					<div class="p-frame">
 						<p>{{item.title}}</p>

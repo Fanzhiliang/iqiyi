@@ -4,7 +4,7 @@
 			<a href="#" class="head-name"><h3>精彩推荐</h3><span>更多></span></a>
 		</div>
 		<a href="#" class="head-img">
-			<img :src="data.img" alt="">
+			<img v-lazy="data.img" alt="">
 		</a>
 		<div class="item" v-for="item in data.list">
 			<i class="arrow"></i>

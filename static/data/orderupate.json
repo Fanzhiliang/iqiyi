@@ -1,7 +1,7 @@
 {
 	"code":200,
 	"data":{
-		"headlineImg":"/static/img/passport_1412422046_150063116792537_130_130.jpg",
+		"headlineImg":"http://image.alcyh.com/static/img/passport_1412422046_150063116792537_130_130.jpg",
 		"headlineHref":"#",
 		"list":[
 			{
@@ -9,7 +9,7 @@
 				"info":"2017-11-03更新",
 				"tag":"1080p",
 				"time":"02:11",
-				"img":"/static/img/news-pic-26.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-26.jpg",
 				"href":"#"
 			},
 			{
@@ -17,7 +17,7 @@
 				"info":"2017-11-02更新",
 				"tag":"1080p",
 				"time":"04:05",
-				"img":"/static/img/news-pic-27.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-27.jpg",
 				"href":"#"
 			},
 			{
@@ -25,7 +25,7 @@
 				"info":"2017-11-03更新",
 				"tag":"1080p",
 				"time":"00:55",
-				"img":"/static/img/news-pic-28.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-28.jpg",
 				"href":"#"
 			},
 			{
@@ -33,7 +33,7 @@
 				"info":"2017-10-03更新",
 				"tag":"1080p",
 				"time":"00:54",
-				"img":"/static/img/news-pic-29.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-29.jpg",
 				"href":"#"
 			},
 			{
@@ -41,7 +41,7 @@
 				"info":"2017-07-13更新",
 				"tag":"1080p",
 				"time":"02:12",
-				"img":"/static/img/news-pic-30.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-30.jpg",
 				"href":"#"
 			},
 			{
@@ -49,7 +49,7 @@
 				"info":"2017-11-03更新",
 				"tag":"1080p",
 				"time":"00:55",
-				"img":"/static/img/news-pic-28.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-28.jpg",
 				"href":"#"
 			},
 			{
@@ -57,7 +57,7 @@
 				"info":"2017-11-03更新",
 				"tag":"1080p",
 				"time":"02:11",
-				"img":"/static/img/news-pic-26.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-26.jpg",
 				"href":"#"
 			},
 			{
@@ -65,7 +65,7 @@
 				"info":"2017-10-03更新",
 				"tag":"1080p",
 				"time":"00:54",
-				"img":"/static/img/news-pic-29.jpg",
+				"img":"http://image.alcyh.com/static/img/news-pic-29.jpg",
 				"href":"#"
 			}
 		]

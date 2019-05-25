@@ -7,14 +7,14 @@
 					<a href="#" class="head-name"><h3>{{that.name}}</h3><span>更多></span></a>
 					<span class="examples">
 						<template v-for="item in data.examples">
-							<a :href="item.href">{{item.title}}</a><span>/</span>
+							<a :href="item.href" :title="item.title">{{item.title}}</a><span>/</span>
 						</template>
 					</span>
 				</div>
 				<div class="row-items">
 					<div class="item" v-for="(item,index) in data.list" @mouseenter="hoverShow($event,index)" @mouseleave="hoverHide(index)">
 						<a :href="item.href" class="item-up" :title="item.title">
-							<img :src="item.img" alt="">
+							<img v-lazy="item.img" alt="">
 							<a :href="item.href" :class="['tag','qy-video-icon',tags[item.tag]]"></a>
 							<a :href="item.href" class="update" v-if="item.update">{{item.update}}</a>
 						</a>
@@ -44,7 +44,7 @@
 		<div class="item-hovers" v-if="that.rankName">
 			<div class="item-hover" :ref="id+'-item'" v-for="(item,index) in data.list" :style="list[index].style" :class="{show:list[index].isShow}" @mouseenter="stay(index)" @mouseleave="hoverHide(index)">
 				<a :href="item.href" class="cover">
-					<img :src="item.cover" alt="">
+					<img v-lazy="item.cover" alt="">
 					<i class="qy-xl-play"></i>
 				</a>
 				<a href="#" class="text-link">

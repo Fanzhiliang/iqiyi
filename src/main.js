@@ -5,6 +5,11 @@ import isMobile from '@/utils/isMobile'
 import vueResource from 'vue-resource'
 import store from '@/store/store.js'
 import _global from '@/global'
+import VueLazyload from 'vue-lazyload'
+import srcloading from '@/assets/img/bg-loading.gif'
+Vue.use(VueLazyload,{
+  loading: srcloading
+})
 Vue.use(vueResource);
 Vue.prototype.GLOBAL = _global
 Vue.config.productionTip = false
