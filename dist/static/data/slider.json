@@ -3,52 +3,52 @@
 	"data":{
 		"list":[
 			{
-				"img":"/static/img/slider-bg-1.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-1.jpg",
 				"href":"#1",
 				"title":"新说唱：吴亦凡中国风公演炸裂"
 			},
 			{
-				"img":"/static/img/slider-bg-2.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-2.jpg",
 				"href":"#2",
 				"title":"好声音：清华博士歌声表白杰伦"
 			},
 			{
-				"img":"/static/img/slider-bg-3.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-3.jpg",
 				"href":"#3",
 				"title":"延禧攻略:皇后下跪任性维护璎珞"
 			},
 			{
-				"img":"/static/img/slider-bg-4.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-4.jpg",
 				"href":"#4",
 				"title":"爱情进化论：张若昀暗恋张天爱"
 			},
 			{
-				"img":"/static/img/slider-bg-5.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-5.jpg",
 				"href":"#5",
 				"title":"香蜜：杨紫邓伦演绎千年挚爱"
 			},
 			{
-				"img":"/static/img/slider-bg-6.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-6.jpg",
 				"href":"#6",
 				"title":"甜蜜暴击：鹿晗霸气叱咤格斗场"
 			},
 			{
-				"img":"/static/img/slider-bg-7.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-7.jpg",
 				"href":"#7",
 				"title":"跨界歌王:刘恺威低吟张国荣名曲"
 			},
 			{
-				"img":"/static/img/slider-bg-8.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-8.jpg",
 				"href":"#8",
 				"title":"朗读者2：白岩松贾樟柯谈故乡"
 			},
 			{
-				"img":"/static/img/slider-bg-9.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-9.jpg",
 				"href":"#9",
 				"title":"伙头军客栈：炊事班催泪重聚"
 			},
 			{
-				"img":"/static/img/slider-bg-10.jpg",
+				"img":"http://iqiyiimg.alcyh.com/slider-bg-10.jpg",
 				"href":"#10",
 				"title":"炸裂国漫强势崛起:国产动漫来袭"
 			}

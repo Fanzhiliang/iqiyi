@@ -2,16 +2,16 @@
 	"code":200,
 	"data":{
 		"list":[
-			{"left":"/static/img/ad-1-left.jpg","right":"/static/img/ad-1-right.jpg","href":"#"},
-			{"left":"/static/img/ad-2-left.jpg","right":"/static/img/ad-2-right.jpg","href":"#"},
-			{"left":"/static/img/ad-3-left.jpg","right":"/static/img/ad-3-right.jpg","href":"#"},
-			{"left":"/static/img/ad-4-left.jpg","right":"/static/img/ad-4-right.jpg","href":"#"},
-			{"left":"/static/img/ad-5-left.jpg","right":"/static/img/ad-5-right.jpg","href":"#"},
-			{"left":"/static/img/ad-6-left.jpg","right":"/static/img/ad-6-right.jpg","href":"#"},
-			{"left":"/static/img/ad-7-left.jpg","right":"/static/img/ad-7-right.jpg","href":"#"},
-			{"left":"/static/img/ad-8-left.jpg","right":"/static/img/ad-8-right.jpg","href":"#"},
-			{"left":"/static/img/ad-9-left.jpg","right":"/static/img/ad-9-right.jpg","href":"#"},
-			{"left":"/static/img/ad-10-left.jpg","right":"/static/img/ad-10-right.jpg","href":"#"}
+			{"left":"http://iqiyiimg.alcyh.com/ad-1-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-1-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-2-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-2-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-3-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-3-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-4-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-4-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-5-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-5-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-6-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-6-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-7-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-7-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-8-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-8-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-9-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-9-right.jpg","href":"#"},
+			{"left":"http://iqiyiimg.alcyh.com/ad-10-left.jpg","right":"http://iqiyiimg.alcyh.com/ad-10-right.jpg","href":"#"}
 		]
 	}
 }

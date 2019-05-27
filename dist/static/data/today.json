@@ -15,40 +15,40 @@
 			{"title":"委内瑞拉总统遭无人机袭击7人受伤","href":"#"}
 		],
 		"pic1":[
-			{"title":"潜水爱好者水下6米打麻将","src":"/static/img/news-pic-1.jpg","href":"#"},
-			{"title":"洪峰过境网红雕像“醉倒”","src":"/static/img/news-pic-2.jpg","href":"#"}
+			{"title":"潜水爱好者水下6米打麻将","src":"http://iqiyiimg.alcyh.com/news-pic-1.jpg","href":"#"},
+			{"title":"洪峰过境网红雕像“醉倒”","src":"http://iqiyiimg.alcyh.com/news-pic-2.jpg","href":"#"}
 		],
 		"pic2":[
 			{
-				"title":"新说唱：潘玮柏公演忘词","src":"/static/img/news-pic-3.jpg",
+				"title":"新说唱：潘玮柏公演忘词","src":"http://iqiyiimg.alcyh.com/news-pic-3.jpg",
 				"tag":"exc","href":"#","update":"2018-08-21期","when":"刚刚发布"
 			},
 			{
-				"title":"陪你过暑假 剧爽一夏！","src":"/static/img/news-pic-4.jpg","href":"#",
+				"title":"陪你过暑假 剧爽一夏！","src":"http://iqiyiimg.alcyh.com/news-pic-4.jpg","href":"#",
 				"time":"01:42"
 			},
 			{
-				"title":"好声音：周杰伦慌到腿软","src":"/static/img/news-pic-5.jpg","href":"#",
+				"title":"好声音：周杰伦慌到腿软","src":"http://iqiyiimg.alcyh.com/news-pic-5.jpg","href":"#",
 				"update":"08-20期","when":"昨天发布"
 			},
 			{
-				"title":"《延禧》皇上欺负璎珞好甜","src":"/static/img/news-pic-6.jpg","href":"#",
+				"title":"《延禧》皇上欺负璎珞好甜","src":"http://iqiyiimg.alcyh.com/news-pic-6.jpg","href":"#",
 				"time":"00:20","when":"刚刚发布"
 			},
-			{"title":"《超能幼稚园》奶香F5成团","src":"/static/img/news-pic-7.jpg","href":"#"},
-			{"title":"宋茜宫廷风上衣引领潮流","src":"/static/img/news-pic-8.jpg","href":"#"},
-			{"title":"新说唱：潘玮柏公演忘词","src":"/static/img/news-pic-3.jpg","href":"#"},
-			{"title":"陪你过暑假 剧爽一夏！","src":"/static/img/news-pic-4.jpg","href":"#"},
-			{"title":"好声音：周杰伦慌到腿软","src":"/static/img/news-pic-5.jpg","href":"#"},
-			{"title":"《延禧》皇上欺负璎珞好甜","src":"/static/img/news-pic-6.jpg","href":"#"},
-			{"title":"《超能幼稚园》奶香F5成团","src":"/static/img/news-pic-7.jpg","href":"#"},
-			{"title":"宋茜宫廷风上衣引领潮流","src":"/static/img/news-pic-8.jpg","href":"#"}
+			{"title":"《超能幼稚园》奶香F5成团","src":"http://iqiyiimg.alcyh.com/news-pic-7.jpg","href":"#"},
+			{"title":"宋茜宫廷风上衣引领潮流","src":"http://iqiyiimg.alcyh.com/news-pic-8.jpg","href":"#"},
+			{"title":"新说唱：潘玮柏公演忘词","src":"http://iqiyiimg.alcyh.com/news-pic-3.jpg","href":"#"},
+			{"title":"陪你过暑假 剧爽一夏！","src":"http://iqiyiimg.alcyh.com/news-pic-4.jpg","href":"#"},
+			{"title":"好声音：周杰伦慌到腿软","src":"http://iqiyiimg.alcyh.com/news-pic-5.jpg","href":"#"},
+			{"title":"《延禧》皇上欺负璎珞好甜","src":"http://iqiyiimg.alcyh.com/news-pic-6.jpg","href":"#"},
+			{"title":"《超能幼稚园》奶香F5成团","src":"http://iqiyiimg.alcyh.com/news-pic-7.jpg","href":"#"},
+			{"title":"宋茜宫廷风上衣引领潮流","src":"http://iqiyiimg.alcyh.com/news-pic-8.jpg","href":"#"}
 		],
 		"slider":[
-			{"title":"爱奇艺早班机","info":"尔晴背着傅恒搞“婚外恋”","img":"/static/img/slider-bg-11.jpg","href":"#"},
-			{"title":"笑霸来了","info":"广场舞大妈battle邓紫棋","img":"/static/img/slider-bg-12.jpg","href":"#"},
-			{"title":"时尚巅峰","info":"《延禧攻略》示范清宫Style 维密秀回归纽约","img":"/static/img/slider-bg-13.jpg","href":"#"},
-			{"title":"周末不出门","info":"两个”熊梓淇尬撩张子枫","img":"/static/img/slider-bg-14.jpg","href":"#"}
+			{"title":"爱奇艺早班机","info":"尔晴背着傅恒搞“婚外恋”","img":"http://iqiyiimg.alcyh.com/slider-bg-11.jpg","href":"#"},
+			{"title":"笑霸来了","info":"广场舞大妈battle邓紫棋","img":"http://iqiyiimg.alcyh.com/slider-bg-12.jpg","href":"#"},
+			{"title":"时尚巅峰","info":"《延禧攻略》示范清宫Style 维密秀回归纽约","img":"http://iqiyiimg.alcyh.com/slider-bg-13.jpg","href":"#"},
+			{"title":"周末不出门","info":"两个”熊梓淇尬撩张子枫","img":"http://iqiyiimg.alcyh.com/slider-bg-14.jpg","href":"#"}
 		],
 		"stars":[
 			[{"title":"《说唱》吴亦凡公演震撼夺冠","href":"#"},{"title":"丁文琪当妈后首发文丁文琪当妈后首发文丁文琪当妈后首发文","href":"#"}],

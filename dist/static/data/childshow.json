@@ -2,8 +2,8 @@
 	"code":200,
 	"data":{
 		"icons":[
-			{"img":"/static/img/headline-icon-1.png","href":"#"},
-			{"img":"/static/img/headline-icon-2.png","href":"#"}
+			{"img":"http://iqiyiimg.alcyh.com/headline-icon-1.png","href":"#"},
+			{"img":"http://iqiyiimg.alcyh.com/headline-icon-2.png","href":"#"}
 		],
 		"examples":[
 			{"title":"小猪佩奇","href":"#"},{"title":"汪汪队立大功","href":"#"},
@@ -11,14 +11,14 @@
 		],
 		"slider":[
 			{
-				"href":"#","img":"/static/img/slider-bg-19.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/slider-bg-19.jpg",
 				"title":"米奇妙妙车队",
 				"info":"赛车中的奇妙故事",
 				"time":"26集全",
 				"tag":"vip"
 			},
 			{
-				"href":"#","img":"/static/img/slider-bg-20.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/slider-bg-20.jpg",
 				"title":"百变布鲁可 第2季",
 				"info":"变身交通工具解决难题",
 				"time":"20集全",
@@ -27,7 +27,7 @@
 		],
 		"list":[
 			{
-				"href":"#","img":"/static/img/news-pic-57.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-57.jpg",
 				"title":"汪汪队立大功 第4季",
 				"info":"本领高强的狗狗巡逻队",
 				"time":"26集全",
@@ -35,7 +35,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-58.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-58.jpg",
 				"title":"班班和莉莉的小王国",
 				"info":"魔法王国中的冒险故事",
 				"time":"更新至13集",
@@ -43,7 +43,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-61.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-61.jpg",
 				"title":"旋风战车队 第2季",
 				"info":"旋风卡车的冒险故事",
 				"time":"20集全",
@@ -51,7 +51,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-62.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-62.jpg",
 				"title":"无敌小鹿 儿歌篇",
 				"info":"宝贝的第一个朋友",
 				"time":"200集全",
@@ -59,7 +59,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-63.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-63.jpg",
 				"title":"贝瓦儿歌",
 				"info":"贝瓦儿歌大全",
 				"time":"更新至411集",
@@ -67,7 +67,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-64.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-64.jpg",
 				"title":"猪猪侠之环球日记",
 				"info":"萌小猪逗趣闯天涯",
 				"time":"26集全",
@@ -75,7 +75,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-59.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-59.jpg",
 				"title":"熊熊乐园 第2季",
 				"info":"探索童年美好的时光",
 				"time":"52集全",
@@ -83,7 +83,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-60.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-60.jpg",
 				"title":"小猪佩奇全集",
 				"info":"小猪佩奇欢乐日常",
 				"time":"156集全",
@@ -91,7 +91,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-57.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-57.jpg",
 				"title":"汪汪队立大功 第4季",
 				"info":"本领高强的狗狗巡逻队",
 				"time":"26集全",
@@ -99,7 +99,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-58.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-58.jpg",
 				"title":"班班和莉莉的小王国",
 				"info":"魔法王国中的冒险故事",
 				"time":"更新至13集",
@@ -107,7 +107,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-59.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-59.jpg",
 				"title":"熊熊乐园 第2季",
 				"info":"探索童年美好的时光",
 				"time":"52集全",
@@ -115,7 +115,7 @@
 				"href":"#"
 			},
 			{
-				"href":"#","img":"/static/img/news-pic-60.jpg",
+				"href":"#","img":"http://iqiyiimg.alcyh.com/news-pic-60.jpg",
 				"title":"小猪佩奇全集",
 				"info":"小猪佩奇欢乐日常",
 				"time":"156集全",
